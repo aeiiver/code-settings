@@ -1,0 +1,45 @@
+{
+  //
+  // vscode
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.find.cursorMoveOnType": false,
+  "editor.linkedEditing": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#f0fa8a60"
+    },
+    {
+      "column": 100,
+      "color": "#f0fa8a20"
+    }
+  ],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.confirmOnExit": "hasChildProcesses",
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "workbench.sideBar.location": "right",
+  //
+  // colorsheme + font checks
+  // icons: ﵂    
+  // ligatures: ->> >=.<= <- ==< >==
+  "editor.fontFamily": "'FiraCode NF', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "nahida",
+  //
+  // vcs
+  "diffEditor.ignoreTrimWhitespace": false,
+  //
+  // extension configuration clusterfuck
+  "gitlens.plusFeatures.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[asciidoc]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 8
+  }
+}
