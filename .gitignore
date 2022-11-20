@@ -2,8 +2,9 @@
 
 !/.gitignore
 
+!/extensions
+!/install_extensions*
 !/keybindings.json
-!/README.md
 !/settings.json
 
 !/snippets/*
