@@ -1,12 +1,4 @@
-Get-Content .\extensions | ForEach-Object {
-    # Remove comments
-    $line = ($_ -Replace "([^#])*#.*", "$1").Trim()
-
-    # Ignore if line is empty
-    If ($line -eq "") {
-        Return
-    }
-
-    Write-Output ""
-    codium --install-extension $line --force
+Get-Content .\extensions | Select-String "^[^#]+" | ForEach-Object {
+    $ext = ($_.Matches.Value).Trim()
+    codium --install-extension "$ext" --force
 }
